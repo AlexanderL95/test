@@ -7,7 +7,8 @@ class Example {
             value++; // увеличиваем value на 1 каждый раз (5, 6, 7, ..., 15)
         }
         for (int item : array) { // равносильно (int i = 0; i < array.length; i++)
-            System.out.println(item); //печатаем элемент массива
+            System.out.println(item);
+            System.out.println(item);//печатаем элемент массива
         }
     }
 }
